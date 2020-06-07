@@ -63,7 +63,7 @@ body {
 }
 
 .page-section {
-    margin: 200px auto;
+    margin   : 200px auto;
     max-width: 1920px;
 }
 
@@ -77,13 +77,13 @@ body {
 }
 
 .title span {
-    line-height: 28px;
-    font-size  : 24px;
-    color      : #000;
-    font-family: 'RobotoCondensed-LightItalic';
-    display    : block;
-    margin-top : -30px;
-    margin-left: 185px;
+    line-height   : 28px;
+    font-size     : 24px;
+    color         : #000;
+    font-family   : 'RobotoCondensed-LightItalic';
+    display       : block;
+    margin-top    : -30px;
+    /* margin-left: 185px; */
 }
 
 .header {
@@ -176,7 +176,8 @@ body {
     position: relative;
 }
 
-.fairy-tail__container {
+.fairy-tail__container,
+.our-trip__container {
     position : absolute;
     min-width: 1230px;
     padding  : 0 15px;
@@ -203,4 +204,54 @@ body {
 
 .fairy-tail__text {
     padding: 10px 0;
+}
+
+.fairy-tail__title span {
+    margin-left: 185px;
+}
+
+.our-trip__slider {
+    width      : 50%;
+    margin-left: auto;
+}
+
+.our-trip__inner {
+    position: relative;
+}
+
+
+.our-trip__title span {
+    margin-left: 240px;
+}
+
+.our-trip__body {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    align-items: start;
+    height         : 100%;
+}
+
+.our-trip__list {
+    margin     : 5px 0;
+    font-size  : 24px;
+    line-height: 28px;
+}
+
+.our-trip__list li:first-child {
+    margin-bottom: 20px;
+    font-family  : 'RobotoCondensed-Regular';
+}
+
+.our-trip__btn {
+    font-family: 'RobotoCondensed-Light';
+    font-size  : 24px;
+    line-height: 28px;
+padding: 11px 53px;
+border: 1px solid #E2AB3F;
+}
+
+.our-trip__content{
+    width: 50%;
+    margin-right: 55px;
 }
