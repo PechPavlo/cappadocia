@@ -228,7 +228,7 @@ body {
     display        : flex;
     flex-direction : column;
     justify-content: space-between;
-    align-items: start;
+    align-items    : start;
     height         : 100%;
 }
 
@@ -247,12 +247,12 @@ body {
     font-family: 'RobotoCondensed-Light';
     font-size  : 24px;
     line-height: 28px;
-padding: 11px 53px;
-border: 1px solid #E2AB3F;
+    padding    : 11px 53px;
+    border     : 1px solid #E2AB3F;
 }
 
-.our-trip__content{
-    width: 50%;
+.our-trip__content {
+    width       : 50%;
     margin-right: 55px;
 }
 
@@ -260,29 +260,60 @@ border: 1px solid #E2AB3F;
     margin-left: 120px;
 }
 
-.hotel__inner{
+.hotel__inner {
     display: flex;
-    }
+}
 
-    .hotel__images{
-        margin-right: 100px;
-    }
+.hotel__images {
+    margin-right: 100px;
+}
 
-    .hotel__content{
+/* .hotel__content{
 height: 100%;
-    }
+    } */
 
-    .hotel__text{
-        margin-bottom: 20px;
-    }
+.hotel__text {
+    margin-bottom: 20px;
+}
 
-    .hotel__gallery{
-        margin-top: 30px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+.hotel__gallery {
+    margin-top     : 30px;
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-between;
+}
 
-    .hotel__gallery a{
-        margin-top: 50px;
-    }
+.hotel__gallery a {
+    margin-top: 50px;
+}
+
+.price__title span {
+    margin-left: 120px;
+}
+
+.price__inner {
+    display: flex;
+}
+
+.price__on-title,
+.price__off-title {
+    margin-bottom: 50px;
+    font-family  : 'RobotoCondensed-Regular';
+    font-size    : 24px;
+    line-height  : 28px;
+}
+
+.price__on{
+    margin-right: 70px;
+    width: 530px;
+}
+
+.price__list-item{
+    margin-bottom: 20px;
+}
+
+.price{
+    background-image: url('../images/balloons.png');
+    background-repeat: no-repeat;
+    background-position: center right ;
+}
