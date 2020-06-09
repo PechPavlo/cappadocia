@@ -427,6 +427,7 @@ height: 100%;
     background-image : url('../images/footer-contact-bg.png');
     background-repeat: no-repeat;
     text-align       : center;
+    background-size: cover;
 }
 
 .footer__contacts-title {
