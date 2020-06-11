@@ -500,11 +500,24 @@ height: 100%;
         position: static;
     }
 
-    .fairy-tail__slider {
+    .fairy-tail__slider{
         width: 100%;
     }
 
     .fairy-tail__body {
+        width       : 100%;
+        padding-left: 0;
+    }
+    .our-trip__slider {
+        width: 100%;
+        margin-top: 11px;
+    }
+    .our-trip__list {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .our-trip__body  {
         width       : 100%;
         padding-left: 0;
     }
@@ -561,11 +574,23 @@ height: 100%;
         display: none;
     }
 
-    .fairy-tail__item img {
+    .fairy-tail__item img{
         height: 50vh;
         width: 100%;
         object-fit: cover;
     }
+
+    .our-trip__slider-item img{
+        height: 65vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .our-trip__title span {
+        margin-left: 151px;
+        font-size: 23px;
+    }
+
     .page-section{
         margin: 50px 0;
     }
@@ -601,5 +626,17 @@ height: 100%;
     }
     .fairy-tail__title span{
         margin-left: 90px;
+    }
+    .our-trip__title span {
+        margin-left: 129px;
+        line-height: 10px;
+    }
+    .our-trip__title{
+        margin-top: -50px;
+    }
+    .our-trip__list {
+        font-size: 18px;
+        line-height: 23px;
+        width: 200%;
     }
 }
