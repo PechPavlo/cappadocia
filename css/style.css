@@ -606,7 +606,7 @@ height: 100%;
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 376px) {
     .header__title {
         font-size  : 60px;
         line-height: 100px;
